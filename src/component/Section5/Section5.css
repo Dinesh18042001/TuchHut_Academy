@@ -1,0 +1,83 @@
+
+.main-sec {
+  margin-top: 25px;
+    background: #854DCE;
+    height: 550px;
+    border-radius: 30px;
+  }
+  
+  .main2-sec,
+  .main3-sec {
+    padding: 20px; 
+  }
+  .main2-sec h3 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54.84px;
+    color: #ffffff;
+  }
+  .main2-sec p {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 24.51px;
+    color: #ffffff; 
+  }
+  
+  
+  .img-sec img {
+    border-radius: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .main-sec {
+      height: auto; 
+    }
+    
+    .main2-sec {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .main2-sec h3 {
+      font-size: 28px; 
+      line-height: 38px;
+    }
+  }
+  .main3-sec {
+    position: relative;
+    height: 80%;
+    left: 50px;
+    top: 60px;
+    border-radius: 100px 0 0 10px;
+    background: #ffffff; /* The values represent the border-radius for each corner respectively */
+  }
+  @media (max-width: 768px) {
+    .main3-sec {
+      /* width: 90%; */
+      left: 30px; 
+      top:0px;
+      margin:30px 0px; 
+      border-radius: 50px 0 0 5px; 
+      background: #ffffff; 
+    }
+    .main3-sec img{
+      width: 80%;
+
+    }
+    .mdtext{
+      padding: 5px;
+      margin: 5px;
+    }
+  }
+  /* .lh-base{
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  } */
+  

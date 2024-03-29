@@ -1,0 +1,46 @@
+.vpcon6 {
+    background: linear-gradient(to bottom, #A373DD 50%, #11AABB 100%);
+    padding: 20px;
+}
+.vpdev{
+   background-color: white;
+    padding: 10px;
+}
+.vpdevpage6 h5{
+    font-family: "Source Serif 4", serif; 
+}
+.vpdevpage6 span{
+    color: #A373DD;
+}
+.vpcon6.section .circle1 img {
+    position: absolute;
+    top: 60px;
+    left: -15px;
+    width: 50px;
+
+}
+@media screen and (max-width: 768px) {
+    .vpcon6.section .circle1 img {
+     position: absolute;
+    top: 190px;
+    left: -15px;
+    width: 50px;
+    }
+}
+
+.vpcon6.section .circle2 img {
+    position: absolute;
+    bottom: 56px;
+    right: -21px;
+    width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .vpcon6.section .circle2 img {
+        position: absolute;
+        bottom: 182px;
+        right: -10px;
+        width: 50px
+    }
+}
+

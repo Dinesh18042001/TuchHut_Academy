@@ -1,0 +1,89 @@
+.viewProgram h4{
+    font-weight: 650;
+    font-size:45px;
+    color: #1371ff;
+    font-family: "Source Serif 4", serif;
+}
+@media only screen and (max-width: 767px) {
+    .viewProgram h4 {
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        color: #1371ff;
+        font-family: "Source Serif 4", serif;
+        margin-top: 10px;
+    }
+}
+.viewProgram h1{
+    font-family: "Source Serif 4", serif;
+    font-size:55px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 767px) {
+    .viewProgram h1 {
+        font-family: "Source Serif 4", serif;
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+.viewProgram p{
+    font-family: "Source Serif 4", serif;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.viewbtn {
+    margin-right: 10px;
+    width: 255px;
+    height: 54px;
+    text-align: center; /* Center text horizontally */
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .viewbtn {
+        width: 170px; 
+        height: 40px;
+        margin-left: 2.5px;
+        text-align: center; /* Ensure text remains centered on small screens */
+    }
+}
+.def{
+    margin-top: 110px;
+    padding-top: 25px;
+}
+
+.viewProgram{
+    margin-left: -3px;
+    padding-top: 35px;
+}
+
+.viewprogram-img img {
+    width: 500px;
+    margin-left: 125px;
+}
+@media only screen and (max-width: 600px) {
+    .viewprogram-img img {
+        width: 100%; 
+        margin-left: 0; 
+    }
+}
+
+/* Assuming a breakpoint of 768px for small screens */
+@media only screen and (max-width: 768px) {
+    .rowpart{
+      flex-direction: column-reverse; /* Stack columns in reverse order */
+    }
+  
+    .viewprogram-img,
+    .viewProgram {
+      width: 100%; /* Take full width */
+    }
+  
+    .viewProgram {
+      margin-top: 20px; /* Add some space between the sections */
+    }
+  }
+  

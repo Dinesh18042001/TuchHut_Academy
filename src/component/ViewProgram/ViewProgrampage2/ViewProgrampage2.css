@@ -1,0 +1,38 @@
+.vpcon {
+    margin-top: 50px;
+    background-color: #e5e7eb; 
+    padding: 20px;
+  }
+
+  /* .vpcon img {
+    height: auto;
+}
+@media (max-width: 768px) {
+  .vpcon img {
+      margin: 50px;
+      margin-right: 2px; 
+  }
+} */
+
+  .vpcon h1 {
+    font-family: "Source Serif 4", serif;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .vpicon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #1371ff;
+  }
+  .section{
+    padding-bottom: 30px;
+  }
+  

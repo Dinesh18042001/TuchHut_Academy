@@ -1,0 +1,14 @@
+.videotag {
+    width: 574px;
+    margin-left: 108px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .videotag {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+        padding-top: 30px;
+    }
+}

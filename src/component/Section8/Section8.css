@@ -1,0 +1,79 @@
+.main-container {
+    background: linear-gradient(180deg, #EFF6FE 100%, #EEDFFF 0%);
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.area1{
+
+    text-align: center;
+    margin: 50px auto;
+}
+@media screen and (max-width: 768px) {
+    .area1 {
+        margin: auto;
+        text-align: center;       
+    }
+}
+.area1 h4 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54.84px;
+}
+.area1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+}
+ /* add animation */
+.overflow-hidden {
+    overflow: hidden;
+    transition: width 0.5s, height 0.5s; 
+  }
+
+.section8-img{
+ width: 100%;
+ height: 350px;
+ border-radius: 10px;
+  } 
+
+  /* glass card */
+  .glasscard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; 
+    max-width: 120px; 
+    height: auto; 
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+  }
+  @media (max-width: 768px) {
+    .glasscard {
+      width: 50%; 
+      max-width: none; 
+    }
+  }
+.glasscard:hover {
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
+  .overflow-hidden {
+    position: relative; 
+  }
+  .glassimg {
+    background-color: #854DCE; 
+    width: 30px; 
+    height: 30px; 
+    border-radius: 10%; 
+  }
+
+
+  

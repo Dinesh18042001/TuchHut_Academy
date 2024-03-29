@@ -1,0 +1,28 @@
+.viewpage9sec{
+    background-color: #EFF6FE;
+    padding: 50px;
+}
+.viewpage9sec h1{
+   font-family: "Source Serif 4", serif;
+   color: #1371ff;
+   text-align: center;
+}
+
+.viewpage9sec h6{
+    font-family: "Source Serif 4", serif; 
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.viewpage9sec p{
+    font-family: "Source Serif 4", serif; 
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.viewpage9sec span{
+    color: black;
+    font-weight: bold;
+}

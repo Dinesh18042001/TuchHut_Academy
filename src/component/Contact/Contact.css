@@ -1,0 +1,36 @@
+.con-main{
+    width: 100%;
+    background-color: #EFF6FE;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.contact1 {
+    border-radius: 30px 0px 30px 30px;
+    background-color: #854DCE;
+}
+.contact-del h1{
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54.84px;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+.contact-del span{
+     color: #00AFB9;
+}
+.ar1{
+    width: 30px;
+    height: 30px;
+}
+.text-con {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.text-con span{
+    color: #fff;
+}

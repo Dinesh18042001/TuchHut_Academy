@@ -1,0 +1,53 @@
+.sec6-text h2 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54.84px;
+    text-align: center;
+    line-height: 100px;
+    padding: 40px;
+}
+
+@media (max-width: 576px) {
+    .sec6-text h2 {
+        font-size: 24px; 
+        line-height: 36px; 
+        text-align: center;
+    }
+}
+
+.sec6-text span {
+    color: #854DCE;
+}
+
+.sec6 h2{
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: justify;
+}
+.sec6 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25x;
+}
+@media screen and (max-width: 768px) { 
+    .sec6 p {
+        font-size: 16px; 
+        line-height: 22px;
+        text-align: justify;
+    }
+}
+
+.img-sec3 img {
+  width: 284px; 
+  height: 250px;
+}
+@media screen and (max-width: 768px) {
+    .img-sec3 img {
+        width: 100%; 
+        height: auto; 
+    }
+} 
