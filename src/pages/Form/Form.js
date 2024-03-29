@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import "./Form.css"
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import $ from 'jquery';
 import 'jquery-validation';
 
@@ -81,17 +81,17 @@ const Form = () => {
       data[key] = value;
     });
 
-    emailjs.send("service_9g9o3k8", "template_2lzywmu", data, "eDmw1Leki7QsrrDBv")
-      .then(
-        (result) => {
-          console.log(result.text);
-          setStatus(true);
-          formRef.current.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // emailjs.send("service_9g9o3k8", "template_2lzywmu", data, "eDmw1Leki7QsrrDBv")
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       setStatus(true);
+    //       formRef.current.reset();
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
   };
 
   return (
@@ -151,118 +151,5 @@ const Form = () => {
 };
 
 export default Form;
-
-
-
-
-
-// import { complex } from 'framer-motion';
-// import React, { useState } from 'react'
-// import { Button } from 'react-bootstrap'
-// import emailjs  from 'emailjs-com'
-
-// const Form = () => {
-//   const initData={
-//     name:"",
-//     email:"",
-//     phone:"",
-//     subject:"",
-//     questions:"",
-//   }
-//   const [status,setStatus]=useState(false)
-//   const [data,setdata]=useState(initData)
-//   const handleChange = (e) => {
-//     const { name, value } = e.target;
-//     setdata({ ...data, [name]: value });
-//   };
-//   const handleSubmit=(e)=>{
-//     e.preventDefault()
-//     emailjs.send("service_9g9o3k8","template_2lzywmu",data,"eDmw1Leki7QsrrDBv")
-//     .then((result)=>{
-//       console.log(result.text)
-//       setStatus(true)
-//       setdata(initData)
-//     },(error)=>{
-//       console.log(error.text);
-//     })
-//     console.log(data)
-//   }
-//   return (
-//     <form className='m-5' onSubmit={handleSubmit}>
-//   <div className="row ">
-//     <div className="p-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-//       <input
-//         className="form-control p-3"
-//         type="text"
-//         name="name"
-//         value={data?.name}
-//         onChange={handleChange}
-//         placeholder='Enter name'
-//       />
-//     </div>
-//     <div className=" p-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      
-//       <input
-//         className="form-control p-3 "
-//         type="text"
-//         name="phone"
-//         value={data?.phone}
-//         onChange={handleChange}
-//         placeholder='Enter Phone'
-//       />
-
-//     </div>
-//   </div>
-//   <div className="row ">
-//     <div className=" p-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-//       <input
-//         className="form-control p-3"
-//         type="text"
-//         name="email"
-//         value={data?.email}
-//         onChange={handleChange}
-//         placeholder='Enter Email'
-//       />
-//     </div>
-//     <div className="p-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-//       <input
-//         className="form-control p-3"
-//         type="text"
-//         name="subject"
-//         value={data?.subject}
-//         onChange={handleChange}
-//         placeholder='Enter Password'/>
-//     </div>
-//   </div>
-//   <div className="row ">
-//     <div className="col-12 p-3">
-//       <textarea
-//         className="form-control resize-none p-3"
-//         name="questions"
-//         value={data?.questions}
-//         onChange={handleChange}
-//         placeholder='Enter Message'
-//       />
-//      {status&& <p style={{color: "green",fontSize: "15px"}}>Email sent sucessfully!!</p>}
-//     </div>
-//   </div>
-//   <div className="row">
-//     <div className="col-12">
-//     <Button type="submit" className="w-22 rounded-10px" style={{ color: '#fff', width: '163px', height: '46px', backgroundColor:"#854DCE" }} >Request call back</Button>
-//     </div>
-//   </div>
-// </form>
-
-//   )
-// }
-
-// export default Form
-
-
-
-
-
-
-
 
 
